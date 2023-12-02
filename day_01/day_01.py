@@ -13,7 +13,7 @@ NUMBERS = {
 }
 
 
-def part_a():
+def part_a() -> None:
     sum = 0
     with open("./day_01/day_01.txt") as f:
         lines = f.readlines()
@@ -30,7 +30,7 @@ def part_a():
     print(sum)
 
 
-def part_b():
+def part_b() -> None:
     sum = 0
     with open("./day_01/day_01.txt") as f:
         lines = f.readlines()
